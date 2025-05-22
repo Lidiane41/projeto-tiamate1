@@ -7,11 +7,13 @@ import QuemSomos from "../components/QuemSomos/index.jsx";
 import Cardapio from "../components/Cardapio";
 import VideoTiamate from "../components/videoTiamate";
 import NossasCafeterias from "../components/NossasCafeterias";
+import Cta from "../components/Cta.jsx";
 
 const Inicio = () => {
     return (
         <>
             <Valores/>
+            <Cta/>
         </>
     );
 }
