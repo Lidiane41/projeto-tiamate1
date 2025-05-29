@@ -12,8 +12,8 @@ import Cta from "../components/Cta.jsx";
 const Inicio = () => {
     return (
         <>
-            <Valores/>
-            <Cta/>
+            {/* <Valores/> */}
+            <Cta texto={"Quer lucrar com sua própria Tiamate? Seja um franqueado!"} />
         </>
     );
 }
